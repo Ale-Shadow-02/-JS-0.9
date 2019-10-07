@@ -16,10 +16,7 @@ const tabPanel = () => {
   //toggleTabContent(2);
   accordionTwo.addEventListener('click', (event) => {
     let target = event.target;
-    console.log('target: ', target);
-
     target = target.closest('.panel');
-    console.log('target: ', target);
     if (target) {
       panel.forEach((item, i) => {
         if (item === target) {
