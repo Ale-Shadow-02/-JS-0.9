@@ -4,7 +4,9 @@ const togglePopup = () => {
     popupClose = document.querySelector('.popup-close');
 
   callBtn.forEach((elem) => {
-    elem.addEventListener('click', () => {
+    
+    elem.addEventListener('click', (event) => {
+      event.preventDefault();
       popupCall.style.display = 'block';
     });
   });
