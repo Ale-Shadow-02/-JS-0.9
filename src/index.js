@@ -4,6 +4,7 @@
  import tabPanel from './modules/tabPanel';
  import sendForm1 from './modules/sendForm1';
  import sentence from './modules/sentence';
+ import gauging from './modules/gauging';
 
 
  //Popup Window
@@ -14,4 +15,6 @@
  sendForm1();
  //Секция Акции и предложения
  sentence();
+ //Секция Закажите бесплатный замер
+ gauging();
 
