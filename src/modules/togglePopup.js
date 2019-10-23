@@ -4,7 +4,6 @@ const togglePopup = () => {
     popupClose = document.querySelector('.popup-close');
 
   callBtn.forEach((elem) => {
-    
     elem.addEventListener('click', (event) => {
       event.preventDefault();
       popupCall.style.display = 'block';

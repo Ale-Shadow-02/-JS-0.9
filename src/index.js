@@ -5,6 +5,7 @@
  import sendForm1 from './modules/sendForm1';
  import sentence from './modules/sentence';
  import gauging from './modules/gauging';
+ import calc from './modules/calc';
 
 
  //Popup Window
@@ -17,4 +18,5 @@
  sentence();
  //Секция Закажите бесплатный замер
  gauging();
-
+ //Калькулятор-аккоредон
+ calc();
