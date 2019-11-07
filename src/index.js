@@ -6,6 +6,7 @@ import sendForm1 from './modules/sendForm1';
 import sentence from './modules/sentence';
 import gauging from './modules/gauging';
 import calc from './modules/calc';
+import calc2 from './modules/calc2';
 
 
 //Popup Window
@@ -19,4 +20,6 @@ sentence();
 //Секция Закажите бесплатный замер
 gauging();
 //Калькулятор-аккоредон
-calc();
+//calc();
+//Калькулятор-аккоредон
+calc2();
